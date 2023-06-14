@@ -1,7 +1,8 @@
-import RouteMap from "./routes/routes" 
+import RouteMap from "./routes/routes";
+
 function App(){
 
-  return <RouteMap />
+    return <RouteMap/>
 }
 
 export default App

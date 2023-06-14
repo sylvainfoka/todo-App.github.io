@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Todo from "../../components/Todo";
-import {Helmet} from "react-helmet";
 
 interface Todo{
   title: string,
@@ -25,16 +24,6 @@ const [todos, setTodos] = useState<Todo[]>([]);
 
   return (
     <div>
-        <Helmet>
-            <title>Todo App</title>
-            <meta></meta>
-
-        </Helmet>
-
-
-
-
-
       <h1>Todo App</h1>
       <div>
         <input
